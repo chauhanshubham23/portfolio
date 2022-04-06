@@ -54,17 +54,20 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="icons mx-4 pl-2">
-              <a href="#">
+              <a href="/">
                 <i className="fab fa-twitter p-1"></i>
               </a>
-              <a href="">
+              <a href="/">
                 <i className="fab fa-facebook p-1 facebook"></i>
               </a>
-              <a href="">
+              <a href="/">
                 <i className="fab fa-instagram p-1 insta"></i>
               </a>
-              <a href="">
+              <a href="/">
                 <i className="fab fa-linkedin facebook"></i>
+              </a>
+              <a href="/">
+              <i className="fab fa-github github  p-2"></i>
               </a>
             </div>
           </div>

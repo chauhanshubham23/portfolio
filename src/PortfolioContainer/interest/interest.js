@@ -1,6 +1,5 @@
 import React from 'react';
 import './interest.css';
-import ml from "../interest/ml1.jpg";
 import cricket from "../interest/cricket.png";
 
 const interest = () => {
@@ -15,9 +14,9 @@ const interest = () => {
         <div className="col-md-4">
             <div className="box">
                 <div className="our-services settings">
-                    <div className="icon"> <div className="htmlradius mx-auto d-block"><img src={ml} className="" alt="" style={{height:50, marginTop:25}}/></div> </div>
-                    <h4>Machine Learning</h4>
-                    <p>Machine learning is the study of computer algorithms .</p>
+                    <div className="icon"> <div className="htmlradius mx-auto d-block"><i className="fab fa-internet-explorer interecticons"></i></div> </div>
+                    <h4>Browsing Internet</h4>
+                    <p>Browsing is the act of looking through a set of information quickly.</p>
                 </div>
             </div>
         </div>

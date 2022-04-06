@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const contact = () => {
   return (
@@ -25,7 +25,7 @@ const contact = () => {
             className="mt-5 w-100 mb-5"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15088.162047492156!2d73.08603711662087!3d19.017936430500917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9d390c16fad%3A0x45a26096b6c171fd!2sKamothe%2C%20Panvel%2C%20Navi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1629022060582!5m2!1sen!2sin"
             
-            loading="lazy"
+            title="location" loading="lazy"
           ></iframe>
         </div>
         <div className="container">
@@ -62,7 +62,7 @@ const contact = () => {
               <form action="" method="post">
                 <div className="row">
                   <div className="col form-group green-border">
-                    <label for="subject">
+                    <label htmlFor="subject">
                       Enter name <span className="text-danger">*</span>
                     </label>
                     <input
@@ -74,7 +74,7 @@ const contact = () => {
                     />
                   </div>
                   <div className="col form-group green-border">
-                    <label for="subject">
+                    <label htmlFor="subject">
                       Email <span className="text-danger">*</span>
                     </label>
                     <input
@@ -87,7 +87,7 @@ const contact = () => {
                   </div>
                 </div>
                 <div className="form-group green-border">
-                  <label for="subject">
+                  <label htmlFor="subject">
                     Subject <span className="text-danger">*</span>
                   </label>
                   <input
@@ -100,7 +100,7 @@ const contact = () => {
                   />
                 </div>
                 <div className="form-group green-border">
-                  <label for="Message">
+                  <label htmlFor="Message">
                     Message <span className="text-danger">*</span>
                   </label>
                   <textarea
@@ -111,7 +111,7 @@ const contact = () => {
                   ></textarea>
                 </div>
                 <div className="form-group green-border">
-                <button type="submit" href="/"  className="btn mt-3 mx-auto d-block w-25 sendmessage">Send message</button>
+                <button type="submit" href="/"  className="btn mt-3 mx-auto d-block sendmessage">Send message</button>
                 </div>
               </form>
             </div>
